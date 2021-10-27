@@ -35,7 +35,7 @@ import subprocess as sub
 def ds9_image(image,name):
 	sub.call("ds9 %s -scale zscale -export jpg %s.jpg -exit" % (image,name), shell=True, close_fds=False)
 
-
+# fits所在路径
 data_path = r"D:/A_Postgraduate/den/bila/bila_4/"
 fits_path = os.path.join(data_path,'*.fit*')
 fits_list = glob.glob(fits_path)

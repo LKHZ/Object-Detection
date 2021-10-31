@@ -1,4 +1,4 @@
-~~~python
+···python
 import os
 import simplejson
 rootdir = r"D:/A_Postgraduate/Project/fits_segment/json文件/"
@@ -51,4 +51,4 @@ for i in range(0,len(file_list)):
             s = str(label_list[i]).replace(',', '').replace('(', ' ').replace(')', ' ') + '\n'
             f.write(s)
     m+=1
-~~~
+···

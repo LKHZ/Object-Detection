@@ -1,4 +1,5 @@
-```python
+# 标签1.0
+# 每张图像的标签保存在不同的json文件中
 import os
 import simplejson
 rootdir = r"D:/A_Postgraduate/Project/fits_segment/json文件/"

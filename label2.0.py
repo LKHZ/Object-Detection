@@ -1,8 +1,7 @@
-# 标签2.0
-## 功能：对所有图像做标签后，坐标信息保存在一个json文件内
-```Python
-import simplejson
+# 标签程序2.0
+# 功能：对所有图像做标签后，坐标信息保存在一个json文件内
 
+import simplejson
 m=1  #保存文件的序列
 
 def get_target_value(key, dic, point_list):
@@ -57,4 +56,4 @@ for i in range(len(key_dict)):
             s = str(label_list[i]).replace(',', '').replace('(', '').replace(')', '') + '\n'
             f.write(s)
     m += 1
-```
+
